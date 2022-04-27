@@ -1,0 +1,9 @@
+build: main.cc
+	g++ -Wall main.cc
+
+count:
+	a.exe input.dat
+doc:
+	doxygen Doxyfile
+clean:
+	del *.out *.exe
