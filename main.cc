@@ -56,7 +56,8 @@ int main(int argc, char **argv){
     }
     else{
         cout << "run function" << endl;
-        cout << countLine("Ohio University") << endl;
+        countLine("Ohio University");
+        cout << line_count << endl;
         cout << countChar("Athens") << endl;
     }
   
